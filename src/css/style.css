@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Slab:100,300,400');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757575;
+    background: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #545454;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-image: url("../images/hp_00.jpg");
+    padding: 100px 0;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 35px;
+}
+
+header .button {
+    /* Pretty */
+    border: #ef543b solid 2px;
+    color: #ef543b;
+    cursor: pointer;
+    background: transparent;
+    /* Geometry/layout */
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 10px 50px;
+    /* Text formatting */
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-col {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.main-col h1, .main-col h2 {
+    color: #ef543b;
+    margin-top: 60px;
+    margin-bottom: 7px;
+}
+
+.main-col h1 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.main-col h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.important {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 100px;
+    padding-bottom: 40px;
+}
+
+.featured {
+    font-family: 'Fjalla One', sans-serif;
+    max-width: 300px;
+    width: 32%;
+    display: inline-block;
+    border-bottom: #ef543b solid 2px;
+}
+
+.separator{
+    width: 1%;
+    display: inline-block;
+}
+
+.caption {
+    padding: 25px 0;
+}
+.featured a {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.featured-img {
+    width: 100%;
+}
+
+.featured p {
+    color: rgb(182, 182, 182);
+    font: 400 16px/1.2em "Fjalla One", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bottom-col {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+}
+
+.items {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    display: table;
+}
+
+.item {
+    display: table-cell;
+    float: left;
+    width: 49%;
+    height: 180px;
+    border: transparent solid 30px;
+    box-sizing: border-box;
+}
+
+.item h3, .item p {
+    text-align: left;
+}
+
+.item h3 {
+    text-transform: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item i {
+    color: #94bd16;
+    display: block;
+    float: right;
+    font-size: 85px;
+    line-height: 100px;
+    margin-left: 30px;
+}
