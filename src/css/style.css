@@ -24,6 +24,7 @@ header {
     width: 100%;
     background-image: url("../images/hp_00.jpg");
     padding: 100px 0;
+    margin: -1% -1% 0;
 }
 
 header h1 {
